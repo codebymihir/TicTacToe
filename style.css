@@ -1,0 +1,61 @@
+.title{
+	color: #74748b	;
+}
+.table{
+	width: 100%;
+	margin: 0px auto;
+  border-collapse: collapse;
+}
+.table tr td,.table tr th{
+	border:1px solid #74748b;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 2px;
+  background-color: #c7c7b8;
+  padding: 2px;
+  width: 300px;
+  margin: 20px auto;
+  color: black;
+}
+
+.items {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 30px 0;
+  font-size: 30px;
+  width: 97px;
+  min-height: 100px;
+  cursor: pointer;
+  /*pointer-events: none;
+  */
+}
+.disableitem{
+	pointer-events: none;
+}
+
+#startgame, #newgame{
+	background-color: #4CAF50;
+	border: none;
+	color: white;
+	padding: 5px 2px;
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 16px;
+	margin: 2px auto;
+	cursor: pointer;
+}
+#result{
+	text-align: center;
+	margin: 20px auto;
+	width: 100%;
+	font-size: 26px;
+}
+.won{
+	color: #4CAF50;
+}
+.draw{
+	color: red;
+}
